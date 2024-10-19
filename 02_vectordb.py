@@ -1,4 +1,5 @@
 import json, os
+import copy
 from langchain_core.documents import Document
 from langchain_openai import OpenAIEmbeddings
 
@@ -28,15 +29,13 @@ with open(file) as f:
     # console.print(data)
 
 console.print(f"Length: {len(data)}")
-# console.print(data[0])
-# console.print(data[22])
-# console.print(data[222])
-types = [d["type"] for d in data]
-unique_types = set(types)
-console.print(f"unique_types: {unique_types}")
+mets = dict(data[0]["metadata"])
+el_type = data[0]["type"]
+console.print(f"[cyan]Type: {el_type}[/]")
 
 
-# load the data into Chroma
-# client = Chroma.from_documents(data=data, persist_directory=persist_directory)
+meta = copy.deepcopy(mets)
+meta.update({"type": el_type})
+console.print(meta)
 
-# client.persist()
+
