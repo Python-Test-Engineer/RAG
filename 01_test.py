@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from unstructured_client import UnstructuredClient
 from unstructured_client.models import operations, shared
 
-input_filepath = "../data/mindset.pdf"
+input_filepath = "./data/fake-memo.pdf"
 
 load_dotenv()
 
