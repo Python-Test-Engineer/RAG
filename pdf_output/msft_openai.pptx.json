@@ -8,7 +8,8 @@
       "filename": "msft_openai.pptx",
       "page_number": 1,
       "languages": [
-        "eng"
+        "eng",
+        "fra"
       ],
       "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
       "data_source": {
