@@ -54,8 +54,8 @@ else:
 
 cur = conn.cursor()
 
-sql = "SELECT track, left(CAST (embeddings AS TEXT), 10) FROM embeddings_table;"
-
+# sql = "SELECT track, left(CAST (embeddings AS TEXT), 10) FROM embeddings_table;"
+sql = "SELECT * FROM publisher;"
 cur.execute(sql)
 print(f"SQL: {sql}")
 print("============")
@@ -65,7 +65,6 @@ if not len(rows):
 for row in rows:
     console.print(row)
 print("============")
-
 
 
 pdf_output_folder = "pdf_output"
@@ -80,9 +79,10 @@ else:
     print(f"File {json_file_name} not found in {pdf_output_folder} folder.")
 
 from openai import OpenAI
+
 client = OpenAI()
 
-table_name = "embeddings_table"
+table_name = "public.embeddings_table"
 
 for i in range(5):
     track_value = data[i]["text"]
@@ -92,7 +92,7 @@ for i in range(5):
     )
     embedding = response.data[0].embedding
     insert_stmt = f"""
-        INSERT INTO {table_name} (track, embeddings)
+        INSERT INTO {table_name} (track, embedding)
         VALUES (%s, %s)
     """
 
@@ -103,5 +103,3 @@ for i in range(5):
 cur.close()
 conn.close()
 console.print(f"[green bold]OPENAI_API_KEY: {OPENAI_API_KEY}[/]")
-
-   
