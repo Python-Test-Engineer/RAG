@@ -6,6 +6,30 @@ from rich.console import Console
 console = Console()
 load_dotenv()
 
+
+# LANGCHAIN
+
+from langchain_openai import OpenAIEmbeddings
+
+embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
+
+
+from langchain_core.documents import Document
+from langchain_postgres import PGVector
+from langchain_postgres.vectorstores import PGVector
+
+# See docker command above to launch a postgres instance with pgvector enabled.
+connection = "postgresql+psycopg://langchain:langchain@localhost:6024/langchain"  # Uses psycopg3!
+collection_name = "rag"
+
+
+vector_store = PGVector(
+    embeddings=embeddings,
+    collection_name=collection_name,
+    connection=connection,
+    use_jsonb=True,
+)
+
 if load_dotenv():
     console.print(f"[green]Success: .env file found with some environment variables[/]")
 else:
