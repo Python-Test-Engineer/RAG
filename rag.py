@@ -5,28 +5,6 @@ from rich.console import Console
 
 console = Console()
 load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-# LANGCHAIN
-
-from langchain_openai import OpenAIEmbeddings
-
-embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
-
-from langchain_core.documents import Document
-from langchain_postgres import PGVector
-from langchain_postgres.vectorstores import PGVector
-
-# See docker command above to launch a postgres instance with pgvector enabled.
-connection = "postgresql+psycopg://postgres:posgres@localhost:6024/vectordb"  # Uses psycopg3!
-collection_name = "rag"
-
-
-vector_store = PGVector(
-    embeddings=embeddings,
-    collection_name=collection_name,
-    connection=connection,
-    use_jsonb=True,
-)
 
 if load_dotenv():
     console.print(f"[green]Success: .env file found with some environment variables[/]")
@@ -34,7 +12,7 @@ else:
     console.print(
         "[red]Caution: No environment variables found. Please create .env file in the root directory or add environment variables in the .env file[/red]"
     )
-
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 import openai
 from openai import OpenAI
