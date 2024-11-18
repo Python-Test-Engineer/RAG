@@ -100,4 +100,4 @@ conn.commit()
 cur.close()
 conn.close()
 if __name__ == "__main__":
-    console.print(f"[cyan bold]OPENAI_API_KEY: {OPENAI_API_KEY}[/cyan bold]")
+    console.print(f"[green bold]OPENAI_API_KEY: {OPENAI_API_KEY}[/]")
