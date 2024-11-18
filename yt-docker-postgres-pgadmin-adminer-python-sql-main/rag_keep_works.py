@@ -1,6 +1,7 @@
 import os
+
 import psycopg2
-from dotenv import load_dotenv, find_dotenv
+from dotenv import find_dotenv, load_dotenv
 from rich.console import Console
 
 console = Console()

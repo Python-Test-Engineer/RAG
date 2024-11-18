@@ -1,6 +1,7 @@
-import psycopg2
-import string
 import random
+import string
+
+import psycopg2
 
 
 def get_random_string(n):

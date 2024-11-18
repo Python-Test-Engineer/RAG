@@ -27,27 +27,23 @@ Let's go!
 
 !pip install -qU "unstructured-ingest[pdf]" unstructured langchain chromadb huggingface_hub sentence-transformers arxiv langchain_community bitsandbytes accelerate
 
-from unstructured_ingest.v2.pipeline.pipeline import Pipeline
-from unstructured_ingest.v2.interfaces import ProcessorConfig
-from unstructured_ingest.v2.processes.connectors.local import (
-    LocalIndexerConfig,
-    LocalDownloaderConfig,
-    LocalConnectionConfig,
-    LocalUploaderConfig
-)
-from unstructured_ingest.v2.processes.partitioner import PartitionerConfig
-from unstructured_ingest.v2.processes.chunker import ChunkerConfig
-from unstructured.staging.base import elements_from_json
-
-from langchain_community.vectorstores import Chroma
-from langchain_core.documents import Document
-from langchain.embeddings import HuggingFaceEmbeddings
+import glob
+import os
+from typing import List
 
 import arxiv
 import tqdm
-import glob
-from typing import List
-import os
+from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import Chroma
+from langchain_core.documents import Document
+from unstructured.staging.base import elements_from_json
+from unstructured_ingest.v2.interfaces import ProcessorConfig
+from unstructured_ingest.v2.pipeline.pipeline import Pipeline
+from unstructured_ingest.v2.processes.chunker import ChunkerConfig
+from unstructured_ingest.v2.processes.connectors.local import (
+    LocalConnectionConfig, LocalDownloaderConfig, LocalIndexerConfig,
+    LocalUploaderConfig)
+from unstructured_ingest.v2.processes.partitioner import PartitionerConfig
 
 os.environ["UNSTRUCTURED_API_KEY"] = "" # Add your key here
 os.environ["UNSTRUCTURED_URL"] ="" # You can find the URL in your personalized dashboard
@@ -160,12 +156,12 @@ from huggingface_hub.hf_api import HfFolder
 # Add your Hugging Face token here
 HfFolder.save_token('')
 
-from langchain.prompts import PromptTemplate
-from langchain.llms import HuggingFacePipeline
-from transformers import pipeline
 import torch
-from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from langchain.chains import RetrievalQA
+from langchain.llms import HuggingFacePipeline
+from langchain.prompts import PromptTemplate
+from transformers import (AutoModelForCausalLM, AutoTokenizer,
+                          BitsAndBytesConfig, pipeline)
 
 model_name = "meta-llama/Meta-Llama-3-8B-Instruct"
 
@@ -225,6 +221,7 @@ qa_chain = RetrievalQA.from_chain_type(
 # Here we will use this metadate to extract `paper_id` from `filename` and build a link to the paper on Arxiv
 
 import re
+
 
 def response_with_links(question):
   sources = []

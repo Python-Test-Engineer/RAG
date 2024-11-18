@@ -1,6 +1,9 @@
 import os
+
+import openai
 import psycopg2
-from dotenv import load_dotenv, find_dotenv
+from dotenv import find_dotenv, load_dotenv
+from openai import OpenAI
 from rich.console import Console
 
 console = Console()
@@ -14,11 +17,7 @@ else:
     )
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-import openai
-from openai import OpenAI
-
 client = OpenAI()
-
 
 if OPENAI_API_KEY:
     try:
@@ -68,8 +67,38 @@ for row in rows:
 print("============")
 
 # Close communications with database
+
+
+from openai import OpenAI
+
+client = OpenAI()
+text = "Rolling Stones - Let It Bleed"
+response = client.embeddings.create(input=text, model="text-embedding-3-small")
+embedding = response.data[0].embedding
+console.print(embedding)
+
+
+# Define the table name and the track value
+table_name = "embeddings_table"
+track_value = text
+
+# Define the OpenAI embedding as a list of 1536 floats
+# embedding = [float(i) for i in range(1536)]  # Replace with your actual embedding
+
+# Create the INSERT statement
+insert_stmt = f"""
+    INSERT INTO {table_name} (track, embeddings)
+    VALUES (%s, %s)
+"""
+
+# Execute the INSERT statement
+cur.execute(insert_stmt, (track_value, embedding))
+
+# Commit the changes
+conn.commit()
+
+# Close the cursor and connection
 cur.close()
 conn.close()
-
 if __name__ == "__main__":
-    console.print(f"[cyan bold]OPENAI_API_KEY: {OPENAI_API_KEY}[/cyan bold]")
+    console.print(f"[green bold]OPENAI_API_KEY: {OPENAI_API_KEY}[/]")

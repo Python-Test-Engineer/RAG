@@ -1,13 +1,11 @@
 import os
+
 from dotenv import find_dotenv, load_dotenv
-from unstructured_ingest.v2.pipeline.pipeline import Pipeline
 from unstructured_ingest.v2.interfaces import ProcessorConfig
+from unstructured_ingest.v2.pipeline.pipeline import Pipeline
 from unstructured_ingest.v2.processes.connectors.local import (
-    LocalIndexerConfig,
-    LocalDownloaderConfig,
-    LocalConnectionConfig,
-    LocalUploaderConfig,
-)
+    LocalConnectionConfig, LocalDownloaderConfig, LocalIndexerConfig,
+    LocalUploaderConfig)
 from unstructured_ingest.v2.processes.partitioner import PartitionerConfig
 
 load_dotenv()
