@@ -2,8 +2,6 @@ import os
 import psycopg2
 from dotenv import load_dotenv, find_dotenv
 from rich.console import Console
-import openai
-from openai import OpenAI
 
 console = Console()
 load_dotenv(find_dotenv())
@@ -16,7 +14,11 @@ else:
     )
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
+import openai
+from openai import OpenAI
+
 client = OpenAI()
+
 
 if OPENAI_API_KEY:
     try:

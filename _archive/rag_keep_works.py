@@ -21,7 +21,6 @@ client = OpenAI()
 
 
 if OPENAI_API_KEY:
-
     try:
         client.models.list()
         console.print("[green]OPENAI_API_KEY is set and is valid[/]")
