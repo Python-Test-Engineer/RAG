@@ -1,6 +1,6 @@
 services:
   postgres:
-    image: postgres:16-alpine #postgres:
+    image: ankane/pgvector:latest #postgres:
     environment:
       - POSTGRES_DB=postgres # optional
       - POSTGRES_USER=postgres
