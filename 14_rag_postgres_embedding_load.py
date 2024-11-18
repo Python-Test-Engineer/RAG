@@ -92,7 +92,7 @@ for i in range(5):
     )
     embedding = response.data[0].embedding
     insert_stmt = f"""
-        INSERT INTO {table_name} (track, embedding)
+        INSERT INTO {table_name} (track, embeddings)
         VALUES (%s, %s)
     """
 
