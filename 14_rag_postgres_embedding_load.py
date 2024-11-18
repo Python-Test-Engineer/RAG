@@ -56,7 +56,6 @@ cur = conn.cursor()
 
 sql = "SELECT track, left(CAST (embeddings AS TEXT), 10) FROM embeddings_table;"
 
-
 cur.execute(sql)
 print(f"SQL: {sql}")
 print("============")
@@ -68,18 +67,12 @@ for row in rows:
 print("============")
 
 
-# Define the path to the pdf_output folder
+
 pdf_output_folder = "pdf_output"
-
-# Define the name of the JSON file
 json_file_name = "fake-memo.pdf.json"
-
-# Construct the full path to the JSON file
 json_file_path = os.path.join(pdf_output_folder, json_file_name)
 
-# Check if the file exists
 if os.path.exists(json_file_path):
-    # Open the JSON file and load its data
     with open(json_file_path) as f:
         data = json.load(f)
     console.print(len(data))
@@ -87,11 +80,8 @@ else:
     print(f"File {json_file_name} not found in {pdf_output_folder} folder.")
 
 from openai import OpenAI
-
 client = OpenAI()
 
-
-# Define the table name and the track value
 table_name = "embeddings_table"
 
 for i in range(5):
@@ -101,7 +91,6 @@ for i in range(5):
         input=track_value, model="text-embedding-3-small"
     )
     embedding = response.data[0].embedding
-    # console.print(embedding)
     insert_stmt = f"""
         INSERT INTO {table_name} (track, embeddings)
         VALUES (%s, %s)
@@ -113,6 +102,6 @@ for i in range(5):
 
 cur.close()
 conn.close()
+console.print(f"[green bold]OPENAI_API_KEY: {OPENAI_API_KEY}[/]")
 
-if __name__ == "__main__":
-    console.print(f"[green bold]OPENAI_API_KEY: {OPENAI_API_KEY}[/]")
+   
