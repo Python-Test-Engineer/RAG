@@ -2,6 +2,7 @@ import json
 import os
 
 import openai
+
 import psycopg2
 from dotenv import find_dotenv, load_dotenv
 from openai import OpenAI
@@ -78,7 +79,6 @@ if os.path.exists(json_file_path):
 else:
     print(f"File {json_file_name} not found in {pdf_output_folder} folder.")
 
-from openai import OpenAI
 
 client = OpenAI()
 
