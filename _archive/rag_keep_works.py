@@ -1,11 +1,11 @@
 import os
 
 import psycopg2
-from dotenv import load_dotenv
+from dotenv import find_dotenv, load_dotenv
 from rich.console import Console
 
 console = Console()
-load_dotenv()
+load_dotenv(find_dotenv())
 
 if load_dotenv():
     console.print(f"[green]Success: .env file found with some environment variables[/]")
