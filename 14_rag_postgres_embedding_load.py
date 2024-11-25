@@ -68,7 +68,7 @@ for row in rows:
 print("============")
 
 
-pdf_output_folder = "pdf_output"
+pdf_output_folder = "pdf_json_output"
 json_file_name = "fake-memo.pdf.json"
 json_file_path = os.path.join(pdf_output_folder, json_file_name)
 
