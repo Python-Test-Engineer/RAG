@@ -9,7 +9,7 @@ CITIES = ["Tokyo", "Yokohama", "Osaka"]
 DATA_URL = "https://raw.githubusercontent.com/Sven-Bo/datasets/master/store_sales_2022-2023.csv"
 
 
-st.title(f"Sales Dashboard", anchor=False)
+st.title(f"Sales Dashboard {YEAR}", anchor=False)
 
 
 @st.cache_data

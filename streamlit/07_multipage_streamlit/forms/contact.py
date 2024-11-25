@@ -4,7 +4,8 @@ import streamlit as st
 import requests  # pip install requests
 
 
-WEBHOOK_URL = st.secrets["WEBHOOK_URL"]
+# WEBHOOK_URL = st.secrets["WEBHOOK_URL"]
+WEBHOOK_URL = "some_webhook_url"
 
 
 def is_valid_email(email):
@@ -43,9 +44,11 @@ def contact_form():
 
         # Prepare the data payload and send it to the specified webhook URL
         data = {"email": email, "name": name, "message": message}
-        response = requests.post(WEBHOOK_URL, json=data)
+        st.write("Sending email...")
 
-        if response.status_code == 200:
-            st.success("Your message has been sent successfully! 🎉", icon="🚀")
-        else:
-            st.error("There was an error sending your message.", icon="😨")
+        # response = requests.post(WEBHOOK_URL, json=data)
+
+        # if response.status_code == 200:
+        #     st.success("Your message has been sent successfully! 🎉", icon="🚀")
+        # else:
+        #     st.error("There was an error sending your message.", icon="😨")
