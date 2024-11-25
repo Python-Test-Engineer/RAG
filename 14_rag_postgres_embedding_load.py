@@ -13,7 +13,7 @@ load_dotenv(find_dotenv())
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 if load_dotenv():
-    console.print(f"[green]Success: .env file found with some environment variables[/]")
+    console.print("[green]Success: .env file found with some environment variables[/]")
 else:
     console.print(
         "[red]Caution: No environment variables found. Please create .env file in the root directory or add environment variables in the .env file[/red]"
