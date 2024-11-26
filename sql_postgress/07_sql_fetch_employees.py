@@ -17,7 +17,7 @@ cur = conn.cursor()
 
 # Query the database
 # sql = "SELECT * FROM publisher;"
-sql = "SELECT * FROM employee;"
+sql = "SELECT * FROM employees;"
 
 cur.execute(sql)
 print(f"SQL: {sql}")

@@ -10,8 +10,8 @@ def bulkInsert(records):
             host="host.docker.internal",
         )
         cursor = connection.cursor()
-        sql_insert_query = """ INSERT INTO employee (name, state) 
-                           VALUES (%s,%s) """
+        sql_insert_query = """ INSERT INTO employees (name, state, salary) 
+                           VALUES (%s,%s,%s) """
 
         # executemany() to insert multiple rows
         result = cursor.executemany(sql_insert_query, records)
@@ -29,5 +29,5 @@ def bulkInsert(records):
             print("PostgreSQL connection is closed")
 
 
-records_to_insert = [("Ted", "NC"), ("Pete", "AZ")]
+records_to_insert = [("Ted", "NC", 5000), ("Pete", "AZ", 10000)]
 bulkInsert(records_to_insert)

@@ -14,14 +14,15 @@ else:
 
 cursor = conn.cursor()
 
-TABLE_NAME = "employee"
+TABLE_NAME = "employees"
 
 cursor.execute(f"DROP TABLE IF EXISTS {TABLE_NAME}")
 
 # Creating table as per requirement
 sql = f"""CREATE TABLE {TABLE_NAME} (
 				name VARCHAR(255) NOT NULL,
-            state VARCHAR(255) NOT NULL
+                state VARCHAR(255) NOT NULL,
+                salary INTEGER
 )"""
 
 try:
