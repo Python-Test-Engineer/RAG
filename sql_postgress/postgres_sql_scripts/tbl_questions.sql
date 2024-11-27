@@ -11,4 +11,4 @@ CREATE TABLE IF NOT EXISTS public.tbl_questions
 
 INSERT INTO public.tbl_questions(
 	user_id, question_text, response_text, archictecture_code)
-VALUES ('2f524c61-ef85-404e-b487-fb0fe304d8e2', 'DO What is the restaurant''s name?', 'THE answer is : The restaurant name is Titos', 'TR0002');
+VALUES (tbl_pr, 'DO What is the restaurant''s name?', 'THE answer is : The restaurant name is Titos', 'TR0002');
