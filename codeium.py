@@ -1,11 +1,12 @@
 import psycopg2
 import json
+from utils.get_postgres_connection import _conn_open
 
 # Define the database connection parameters
-host = "localhost"
-database = "mydatabase"
-username = "myusername"
-password = "mypassword"
+# host = "localhost"
+# database = "mydatabase"
+# username = "myusername"
+# password = "mypassword"
 
 # Define the JSON object
 json_data = """
@@ -41,8 +42,9 @@ json_data = """
 """
 
 # Parse the JSON object
-data = json.loads(json_data)
+# data = json.loads(json_data)
 
+conn = _conn_open()
 # Define the SQL table structure
 table_name = "document_metadata"
 columns = [
@@ -93,8 +95,6 @@ VALUES (
 );
 """
 
-# Connect to the database
-conn = psycopg2.connect(host=host, database=database, user=username, password=password)
 
 # Create a cursor object
 cur = conn.cursor()
@@ -102,30 +102,30 @@ cur = conn.cursor()
 # Create the table if it doesn't exist
 cur.execute(create_table_sql)
 
-# Insert the data into the table
-cur.execute(
-    insert_data_sql,
-    (
-        data["type"],
-        data["element_id"],
-        data["text"],
-        data["metadata"]["filetype"],
-        json.dumps(data["metadata"]["languages"]),
-        data["metadata"]["page_number"],
-        data["metadata"]["filename"],
-        data["metadata"]["data_source"]["url"],
-        data["metadata"]["data_source"]["version"],
-        data["metadata"]["data_source"]["record_locator"]["path"],
-        data["metadata"]["data_source"]["date_created"],
-        data["metadata"]["data_source"]["date_modified"],
-        data["metadata"]["data_source"]["date_processed"],
-        data["metadata"]["data_source"]["permissions_data"][0]["mode"],
-        data["metadata"]["data_source"]["filesize_bytes"],
-    ),
-)
+# # Insert the data into the table
+# cur.execute(
+#     insert_data_sql,
+#     (
+#         data["type"],
+#         data["element_id"],
+#         data["text"],
+#         data["metadata"]["filetype"],
+#         json.dumps(data["metadata"]["languages"]),
+#         data["metadata"]["page_number"],
+#         data["metadata"]["filename"],
+#         data["metadata"]["data_source"]["url"],
+#         data["metadata"]["data_source"]["version"],
+#         data["metadata"]["data_source"]["record_locator"]["path"],
+#         data["metadata"]["data_source"]["date_created"],
+#         data["metadata"]["data_source"]["date_modified"],
+#         data["metadata"]["data_source"]["date_processed"],
+#         data["metadata"]["data_source"]["permissions_data"][0]["mode"],
+#         data["metadata"]["data_source"]["filesize_bytes"],
+#     ),
+# )
 
-# Commit the changes
-conn.commit()
+# # Commit the changes
+# conn.commit()
 
 # Close the cursor and connection
 cur.close()
