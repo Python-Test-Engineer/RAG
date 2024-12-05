@@ -28,10 +28,12 @@ def load_json(filename):
         return json_data
 
 
-json_data = load_json("./data/test.json")
-print(f"Number of items: {len(json_data)}")
-for i in range(len(json_data)):
-    if json_data[i]["type"] == "Image":
-        print(i)
-        pprint(json_data[i])
-        break
+if __name__ == "__main__":
+    json_data = load_json("./data/test.json")
+    print(f"Number of items: {len(json_data)}")
+    for i in range(len(json_data)):
+        if json_data[i]["type"] == "Image":
+            pprint(json_data[i])
+            print("-----------------")
+            print(f"Item Number: {i}")
+            break
