@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS tbl_doc_elements (
     element_text TEXT,
     page_number INTEGER,
     filename VARCHAR(150),
-    filetype VARCHAR(30),
+    filetype VARCHAR(50),
     processed_text TEXT,
     keywords TEXT [],
     embedding REAL [],
