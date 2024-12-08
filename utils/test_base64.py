@@ -9,7 +9,8 @@ def encode_image(image):
 
 def decode_image(encoded_image_data, image):
     decoded_image_data = base64.b64decode(encoded_image_data)
-    with open(image, "wb") as new_image_file:
+    file_name_path = f"./data/{image}"
+    with open(file_name_path, "wb") as new_image_file:
         new_image_file.write(decoded_image_data)
     return decoded_image_data
 
