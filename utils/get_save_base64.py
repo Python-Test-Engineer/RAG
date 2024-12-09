@@ -14,3 +14,9 @@ def decode_image(encoded_image_data, image):
     file_name_path = f"./data/{image}"
     with open(file_name_path, "wb") as new_image_file:
         new_image_file.write(decoded_image_data)
+
+
+if __name__ == "__main__":
+    encoded_image_data = encode_image("test.png")
+    print(encoded_image_data)
+    decode_image(encoded_image_data, "test_output.png")
