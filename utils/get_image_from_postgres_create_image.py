@@ -10,9 +10,6 @@ conn = _conn_open()
 console.print(f"conn: {conn}")
 cur = conn.cursor()
 
-# Query the database
-# sql = "SELECT * FROM publisher;"
-
 #  image_base64 TEXT has base64 version of image
 sql = "SELECT image_base64 FROM tbl_doc_elements;"
 
