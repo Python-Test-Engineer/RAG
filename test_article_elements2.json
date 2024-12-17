@@ -1,0 +1,445 @@
+[
+    {
+        "type": "Header",
+        "element_id": "f506b2a3fdfda7bd084acfb2fb5ff0f6",
+        "text": "MOLECULAR AND CELLULAR BIOLOGY 2023, VOL. 43, NO. 11, 547\u2013565 https://doi.org/10.1080/10985549.2023.2256640",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "filename": "TMCB_43_2256640.pdf",
+            "data_source": {
+                "url": null,
+                "version": null,
+                "record_locator": {
+                    "path": "C:\\Users\\mrcra\\Desktop\\RAG\\pdf_input\\TMCB_43_2256640.pdf"
+                },
+                "date_created": "1729366700.1873145",
+                "date_modified": "1729366700.979733",
+                "date_processed": "1729366835.889055",
+                "permissions_data": [
+                    {
+                        "mode": 33206
+                    }
+                ],
+                "filesize_bytes": 2867773
+            }
+        }
+    },
+    {
+        "type": "Header",
+        "element_id": "a5a52e72e96eb4065948f79512a09cac",
+        "text": "MOLECULAR AND CELLULAR BIOLOGY 2023, VOL. 43, NO. 11, 547\u2013565",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "filename": "TMCB_43_2256640.pdf",
+            "data_source": {
+                "url": null,
+                "version": null,
+                "record_locator": {
+                    "path": "C:\\Users\\mrcra\\Desktop\\RAG\\pdf_input\\TMCB_43_2256640.pdf"
+                },
+                "date_created": "1729366700.1873145",
+                "date_modified": "1729366700.979733",
+                "date_processed": "1729366835.889055",
+                "permissions_data": [
+                    {
+                        "mode": 33206
+                    }
+                ],
+                "filesize_bytes": 2867773
+            }
+        }
+    },
+    {
+        "type": "Header",
+        "element_id": "51d4010aff5815b966a7719895572a51",
+        "text": "https://doi.org/10.1080/10985549.2023.2256640",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "filename": "TMCB_43_2256640.pdf",
+            "data_source": {
+                "url": null,
+                "version": null,
+                "record_locator": {
+                    "path": "C:\\Users\\mrcra\\Desktop\\RAG\\pdf_input\\TMCB_43_2256640.pdf"
+                },
+                "date_created": "1729366700.1873145",
+                "date_modified": "1729366700.979733",
+                "date_processed": "1729366835.889055",
+                "permissions_data": [
+                    {
+                        "mode": 33206
+                    }
+                ],
+                "filesize_bytes": 2867773
+            }
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "b5cde38640ea1e370f3fbf91604c3f1b",
+        "text": "RESEARCH ARTICLE",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "parent_id": "51d4010aff5815b966a7719895572a51",
+            "filename": "TMCB_43_2256640.pdf",
+            "data_source": {
+                "url": null,
+                "version": null,
+                "record_locator": {
+                    "path": "C:\\Users\\mrcra\\Desktop\\RAG\\pdf_input\\TMCB_43_2256640.pdf"
+                },
+                "date_created": "1729366700.1873145",
+                "date_modified": "1729366700.979733",
+                "date_processed": "1729366835.889055",
+                "permissions_data": [
+                    {
+                        "mode": 33206
+                    }
+                ],
+                "filesize_bytes": 2867773
+            }
+        }
+    },
+    {
+        "type": "Image",
+        "element_id": "835f90ace46841639cd6f6f1b50ce9fe",
+        "text": "Taylor & Francis Taylor &Francis Group",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "filename": "TMCB_43_2256640.pdf",
+            "data_source": {
+                "url": null,
+                "version": null,
+                "record_locator": {
+                    "path": "C:\\Users\\mrcra\\Desktop\\RAG\\pdf_input\\TMCB_43_2256640.pdf"
+                },
+                "date_created": "1729366700.1873145",
+                "date_modified": "1729366700.979733",
+                "date_processed": "1729366835.889055",
+                "permissions_data": [
+                    {
+                        "mode": 33206
+                    }
+                ],
+                "filesize_bytes": 2867773
+            }
+        }
+    },
+    {
+        "type": "Image",
+        "element_id": "26177eb86b563a87479ca3807f9165d8",
+        "text": "a OPEN ACCESS",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "filename": "TMCB_43_2256640.pdf",
+            "data_source": {
+                "url": null,
+                "version": null,
+                "record_locator": {
+                    "path": "C:\\Users\\mrcra\\Desktop\\RAG\\pdf_input\\TMCB_43_2256640.pdf"
+                },
+                "date_created": "1729366700.1873145",
+                "date_modified": "1729366700.979733",
+                "date_processed": "1729366835.889055",
+                "permissions_data": [
+                    {
+                        "mode": 33206
+                    }
+                ],
+                "filesize_bytes": 2867773
+            }
+        }
+    },
+    {
+        "type": "Image",
+        "element_id": "e2073c0a9ab846e08e6cecefd47efae2",
+        "text": "@ Check for updates",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "filename": "TMCB_43_2256640.pdf",
+            "data_source": {
+                "url": null,
+                "version": null,
+                "record_locator": {
+                    "path": "C:\\Users\\mrcra\\Desktop\\RAG\\pdf_input\\TMCB_43_2256640.pdf"
+                },
+                "date_created": "1729366700.1873145",
+                "date_modified": "1729366700.979733",
+                "date_processed": "1729366835.889055",
+                "permissions_data": [
+                    {
+                        "mode": 33206
+                    }
+                ],
+                "filesize_bytes": 2867773
+            }
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "479f1e35d27e77d913045e5828500b7d",
+        "text": "A SNAI2/CTCF Interaction is Required for NOTCH1 Expression in Rhabdomyosarcoma",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "filename": "TMCB_43_2256640.pdf",
+            "data_source": {
+                "url": null,
+                "version": null,
+                "record_locator": {
+                    "path": "C:\\Users\\mrcra\\Desktop\\RAG\\pdf_input\\TMCB_43_2256640.pdf"
+                },
+                "date_created": "1729366700.1873145",
+                "date_modified": "1729366700.979733",
+                "date_processed": "1729366835.889055",
+                "permissions_data": [
+                    {
+                        "mode": 33206
+                    }
+                ],
+                "filesize_bytes": 2867773
+            }
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "ec1be36dd2e10ee698c0d3e7391d9778",
+        "text": "Prethish Sreenivas,a Long Wang,a Meng Wang,b Anil Challa,a,c Paulomi Modi,a Nicole Rae Hensch,a Berkley Gryder,d Hsien-Chao Chou,e Xiang R. Zhao,a Benjamin Sunkel,b Rodrigo Moreno-Campos,a Javed Khan,f Benjamin Z. Stanton,b Myron S. Ignatiusa",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "parent_id": "479f1e35d27e77d913045e5828500b7d",
+            "filename": "TMCB_43_2256640.pdf",
+            "data_source": {
+                "url": null,
+                "version": null,
+                "record_locator": {
+                    "path": "C:\\Users\\mrcra\\Desktop\\RAG\\pdf_input\\TMCB_43_2256640.pdf"
+                },
+                "date_created": "1729366700.1873145",
+                "date_modified": "1729366700.979733",
+                "date_processed": "1729366835.889055",
+                "permissions_data": [
+                    {
+                        "mode": 33206
+                    }
+                ],
+                "filesize_bytes": 2867773
+            }
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "1fcc8827c7655885ffbdcd38c4a52b3e",
+        "text": "aGreehey Children\u2019s Cancer Research Institute, Department of Molecular Medicine, University of Texas Health Sciences Center, San Antonio, Texas, USA",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "parent_id": "479f1e35d27e77d913045e5828500b7d",
+            "filename": "TMCB_43_2256640.pdf",
+            "data_source": {
+                "url": null,
+                "version": null,
+                "record_locator": {
+                    "path": "C:\\Users\\mrcra\\Desktop\\RAG\\pdf_input\\TMCB_43_2256640.pdf"
+                },
+                "date_created": "1729366700.1873145",
+                "date_modified": "1729366700.979733",
+                "date_processed": "1729366835.889055",
+                "permissions_data": [
+                    {
+                        "mode": 33206
+                    }
+                ],
+                "filesize_bytes": 2867773
+            }
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "59579c8c06783c8b8a56461f7c831fa3",
+        "text": "bCenter for Childhood Cancer and Blood Diseases, Abigail Wexner Research Institute at Nationwide Children\u2019s Hospital, The Ohio State University, Columbus, Ohio, USA",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "parent_id": "479f1e35d27e77d913045e5828500b7d",
+            "filename": "TMCB_43_2256640.pdf",
+            "data_source": {
+                "url": null,
+                "version": null,
+                "record_locator": {
+                    "path": "C:\\Users\\mrcra\\Desktop\\RAG\\pdf_input\\TMCB_43_2256640.pdf"
+                },
+                "date_created": "1729366700.1873145",
+                "date_modified": "1729366700.979733",
+                "date_processed": "1729366835.889055",
+                "permissions_data": [
+                    {
+                        "mode": 33206
+                    }
+                ],
+                "filesize_bytes": 2867773
+            }
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "111963fed4295772c9a5a08ab644749b",
+        "text": "cDepartment of Biology, University of Alabama at Birmingham, Birmingham, USA",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "parent_id": "479f1e35d27e77d913045e5828500b7d",
+            "filename": "TMCB_43_2256640.pdf",
+            "data_source": {
+                "url": null,
+                "version": null,
+                "record_locator": {
+                    "path": "C:\\Users\\mrcra\\Desktop\\RAG\\pdf_input\\TMCB_43_2256640.pdf"
+                },
+                "date_created": "1729366700.1873145",
+                "date_modified": "1729366700.979733",
+                "date_processed": "1729366835.889055",
+                "permissions_data": [
+                    {
+                        "mode": 33206
+                    }
+                ],
+                "filesize_bytes": 2867773
+            }
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "180ec81b012b8f06de0fddf1deaffbb1",
+        "text": "dDepartment of Genetics and Genome Sciences, Case Western Reserve University, Cleveland, Ohio, USA",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "parent_id": "479f1e35d27e77d913045e5828500b7d",
+            "filename": "TMCB_43_2256640.pdf",
+            "data_source": {
+                "url": null,
+                "version": null,
+                "record_locator": {
+                    "path": "C:\\Users\\mrcra\\Desktop\\RAG\\pdf_input\\TMCB_43_2256640.pdf"
+                },
+                "date_created": "1729366700.1873145",
+                "date_modified": "1729366700.979733",
+                "date_processed": "1729366835.889055",
+                "permissions_data": [
+                    {
+                        "mode": 33206
+                    }
+                ],
+                "filesize_bytes": 2867773
+            }
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "8edc9be1b4634c08563d6cbd2f403a84",
+        "text": "eGenetics Branch, NIH, Bethesda, Maryland, USA",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "parent_id": "479f1e35d27e77d913045e5828500b7d",
+            "filename": "TMCB_43_2256640.pdf",
+            "data_source": {
+                "url": null,
+                "version": null,
+                "record_locator": {
+                    "path": "C:\\Users\\mrcra\\Desktop\\RAG\\pdf_input\\TMCB_43_2256640.pdf"
+                },
+                "date_created": "1729366700.1873145",
+                "date_modified": "1729366700.979733",
+                "date_processed": "1729366835.889055",
+                "permissions_data": [
+                    {
+                        "mode": 33206
+                    }
+                ],
+                "filesize_bytes": 2867773
+            }
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "42f893ff9564e0106f41d80b1a3b8092",
+        "text": "fPediatric Oncology Branch, NCI, NIH, Bethesda, Maryland, USA",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "parent_id": "479f1e35d27e77d913045e5828500b7d",
+            "filename": "TMCB_43_2256640.pdf",
+            "data_source": {
+                "url": null,
+                "version": null,
+                "record_locator": {
+                    "path": "C:\\Users\\mrcra\\Desktop\\RAG\\pdf_input\\TMCB_43_2256640.pdf"
+                },
+                "date_created": "1729366700.1873145",
+                "date_modified": "1729366700.979733",
+                "date_processed": "1729366835.889055",
+                "permissions_data": [
+                    {
+                        "mode": 33206
+                    }
+                ],
+                "filesize_bytes": 2867773
+            }
+        }
+    }
+]

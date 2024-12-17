@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS tbl_doc_elements (
     processed_text TEXT,
     keywords TEXT [],
     ner TEXT [], 
-    embedding REAL [],
+    embedding VECTOR(1536),
     image_base64 TEXT,
     CONSTRAINT doc_elements_pk PRIMARY KEY (id)
 );
