@@ -17,6 +17,6 @@ def decode_image(encoded_image_data, image):
 
 
 if __name__ == "__main__":
-    encoded_image_data = encode_image("test.png")
+    encoded_image_data = encode_image("./test01.png")
     print(encoded_image_data)
-    decode_image(encoded_image_data, "test_output.png")
+    decode_image(encoded_image_data, "./test_output_utils.png")
