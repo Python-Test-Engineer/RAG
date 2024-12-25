@@ -11,12 +11,30 @@ from unstructured_ingest.v2.processes.connectors.local import (
 )
 from unstructured_ingest.v2.processes.partitioner import PartitionerConfig
 
-load_dotenv()
+load_dotenv(find_dotenv())
+UNSTRUCTURED_API_KEY = os.getenv("UNSTRUCTURED_API_KEY")
+UNSTRUCTURED_API_URL = os.getenv("UNSTRUCTURED_API_URL")
+LOCAL_FILE_INPUT_DIR = os.getenv("LOCAL_FILE_INPUT_DIR")
+LOCAL_FILE_OUTPUT_DIR = os.getenv("LOCAL_FILE_OUTPUT_DIR")
 
-if __name__ == "__main__":
+
+print(UNSTRUCTURED_API_KEY, UNSTRUCTURED_API_URL)
+print(LOCAL_FILE_INPUT_DIR, LOCAL_FILE_OUTPUT_DIR)
+
+
+def generate_json_from_local(
+    input_path: str,
+    output_dir: str,
+    parition_by_api: bool = False,
+    api_key: str = None,
+    partition_endpoint: str = None,
+    split_pdf_page: bool = True,
+    split_pdf_allow_failed: bool = True,
+    split_pdf_concurrency_level: int = 15,
+):
     Pipeline.from_configs(
         context=ProcessorConfig(),
-        indexer_config=LocalIndexerConfig(input_path=os.getenv("LOCAL_FILE_INPUT_DIR")),
+        indexer_config=LocalIndexerConfig(input_path=input_path),
         downloader_config=LocalDownloaderConfig(),
         source_connection_config=LocalConnectionConfig(),
         partitioner_config=PartitionerConfig(
@@ -34,7 +52,5 @@ if __name__ == "__main__":
             extract_image_block_types=["Image", "Table"],
             extract_images_in_pdf=True,
         ),
-        uploader_config=LocalUploaderConfig(
-            output_dir=os.getenv("LOCAL_FILE_OUTPUT_DIR")
-        ),
+        uploader_config=LocalUploaderConfig(output_dir=output_dir),
     ).run()
