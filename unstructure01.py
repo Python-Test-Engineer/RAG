@@ -1,56 +1,61 @@
-from unstructured_client import UnstructuredClient
+# Before calling the API, replace filename and ensure sdk is installed: "pip install unstructured-client"
+# See https://docs.unstructured.io/api-reference/api-services/sdk for more details
+
+import unstructured_client
 from unstructured_client.models import operations, shared
-from unstructured.staging.base import elements_from_dicts, elements_to_json
-
+from dotenv import find_dotenv, load_dotenv
 import os
-import base64
-from PIL import Image
-import io
 
-if __name__ == "__main__":
-    client = UnstructuredClient(
-        api_key_auth=os.getenv("UNSTRUCTURED_API_KEY"),
-        server_url=os.getenv("UNSTRUCTURED_API_URL"),
-    )
+load_dotenv(find_dotenv())
+UNSTRUCTURED_API_KEY = os.getenv("UNSTRUCTURED_API_KEY")
+UNSTRUCTURED_API_URL = os.getenv("UNSTRUCTURED_API_URL")
+LOCAL_FILE_INPUT_DIR = os.getenv("LOCAL_FILE_INPUT_DIR")
+LOCAL_FILE_OUTPUT_DIR = os.getenv("LOCAL_FILE_OUTPUT_DIR")
 
-    # Source: https://github.com/Unstructured-IO/unstructured/blob/main/example-docs/embedded-images-tables.pdf
 
-    # Where to get the input file and store the processed data, relative to this .py file.
-    local_input_filepath = "pdf_input_files/embedded-images-tables.pdf"
-    local_output_filepath = "pdf_output_files/embedded-images-tables.json"
+print(UNSTRUCTURED_API_KEY, UNSTRUCTURED_API_URL)
+print(LOCAL_FILE_INPUT_DIR, LOCAL_FILE_OUTPUT_DIR)
+client = unstructured_client.UnstructuredClient(
+    api_key_auth=UNSTRUCTURED_API_KEY,
+    server_url=UNSTRUCTURED_API_URL,)
 
-    with open(local_input_filepath, "rb") as f:
-        files = shared.Files(content=f.read(), file_name=local_input_filepath)
+filename = "pdf_input_files/embedded-images-tables.pdf"
+with open(filename, "rb") as f:
+    data = f.read()
 
-    request = operations.PartitionRequest(
-        shared.PartitionParameters(
-            files=files,
-            strategy=shared.Strategy.HI_RES,
-            split_pdf_page=True,
-            split_pdf_allow_failed=True,
-            split_pdf_concurrency_level=15,
-            # Extract the Base64-encoded representation of each
-            # processed "Image" and "Table" element. Extract each into
-            # an "image_base64" object, as a child of the
-            # "metadata" object, for that element in the result.
-            # Element type names, such as "Image" and "Table" here,
-            # are case-insensitive.
-            # Any available Unstructured element type is allowed.
-            extract_image_block_types=["Image", "Table"],
-        )
-    )
+req = operations.PartitionRequest(
+    partition_parameters=shared.PartitionParameters(
+        files=shared.Files(
+            content=data,
+            file_name=filename,
+            strategy="hi_res",
+            extract_images_in_pdf=True,
+            infer_table_structure=True,
+        ),
+        # --- Other partition parameters ---
+        # Note: Defining 'strategy', 'chunking_strategy', and 'output_format'
+        # parameters as strings is accepted, but will not pass strict type checking. It is
+        # advised to use the defined enum classes as shown below.
+        strategy=shared.Strategy.HI_RES,
+        languages=["eng"],
+        infer_table_structure=True,
+        extract_element_types=["Table"],
+        extract_image_block_types=["Image", "Table"],
+        extract_images_in_pdf=True,
+    ),
+)
 
-    try:
-        result = client.general.partition_async(request)
+output = []
 
-        for element in result.elements:
-            if "image_base64" in element["metadata"]:
-                # Decode the Base64-encoded representation of the
-                # processed "Image" or "Table" element into its original
-                # visual representation, and then show it.
-                image_data = base64.b64decode(element["metadata"]["image_base64"])
-                image = Image.open(io.BytesIO(image_data))
-                image.show()
+try:
+    res = client.general.partition(request=req)
+    for element in res.elements:
+        # print(element)
 
-    except Exception as e:
-        print(e)
+        output.append(element)
+
+    print(output)
+    with open("unstructured01.json", "w") as f:
+        f.write(output)
+except Exception as e:
+    print(e)
