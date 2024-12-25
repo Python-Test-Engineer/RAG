@@ -13,6 +13,7 @@ CREATE TABLE IF NOT EXISTS tbl_doc_elements (
     ner TEXT [], 
     embedding VECTOR(1536),
     image_base64 TEXT,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
     CONSTRAINT doc_elements_pk PRIMARY KEY (id)
 );
 
