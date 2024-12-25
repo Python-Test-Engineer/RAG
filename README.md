@@ -38,7 +38,8 @@ request = operations.PartitionRequest(
 
 result = client.general.partition(request)
 
-# Access the Base64 image data
+## Access the Base64 image data
+
 for element in result.elements:
     if "image_base64" in element["metadata"]:
         base64_image = element["metadata"]["image_base64"]
@@ -55,3 +56,17 @@ for element in result.elements:
         image = Image.open(io.BytesIO(image_data))
         image.show()
 Remember that this feature works for PDF and image files. The Base64-encoded data will be stored in the image_base64 field within the metadata object of each relevant element in the result.
+
+## Images
+
+https://docs.unstructured.io/api-reference/api-services/api-parameters
+
+elements = partition_pdf(
+    filename="124_PDFsam_Basel III - Finalising post-crisis reforms.pdf",
+    strategy="hi_res",
+    infer_table_structure=True,
+    extract_element_types=['Table'],
+    extract_image_block_types=["Image", "Table"],
+    extract_images_in_pdf=True
+)
+
