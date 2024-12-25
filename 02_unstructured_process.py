@@ -1,8 +1,7 @@
 import json
-import chardet
-import pandas as pd
 
-with open("unstrucutured_output.json", "r") as f:
+
+with open("unstructured_output.json", "r") as f:
     result = f.read()
 
 
