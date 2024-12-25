@@ -4,8 +4,11 @@ from dotenv import find_dotenv, load_dotenv
 from unstructured_ingest.v2.interfaces import ProcessorConfig
 from unstructured_ingest.v2.pipeline.pipeline import Pipeline
 from unstructured_ingest.v2.processes.connectors.local import (
-    LocalConnectionConfig, LocalDownloaderConfig, LocalIndexerConfig,
-    LocalUploaderConfig)
+    LocalConnectionConfig,
+    LocalDownloaderConfig,
+    LocalIndexerConfig,
+    LocalUploaderConfig,
+)
 from unstructured_ingest.v2.processes.partitioner import PartitionerConfig
 
 load_dotenv()
@@ -26,6 +29,10 @@ if __name__ == "__main__":
                 "split_pdf_allow_failed": True,
                 "split_pdf_concurrency_level": 15,
             },
+            infer_table_structure=True,
+            extract_element_types=["Table"],
+            extract_image_block_types=["Image", "Table"],
+            extract_images_in_pdf=True,
         ),
         uploader_config=LocalUploaderConfig(
             output_dir=os.getenv("LOCAL_FILE_OUTPUT_DIR")
