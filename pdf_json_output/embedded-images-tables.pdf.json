@@ -1,0 +1,293 @@
+[
+  {
+    "type": "PageNumber",
+    "element_id": "2d558306da71f11751c0f4d0074c3e24",
+    "text": "454",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "embedded-images-tables.pdf",
+      "data_source": {
+        "url": null,
+        "version": null,
+        "record_locator": {
+          "path": "C:\\Users\\owner\\Desktop\\RAG\\embedded-images-tables.pdf"
+        },
+        "date_created": "1735086289.8262796",
+        "date_modified": "1735086289.8262796",
+        "date_processed": "1735136193.2906005",
+        "permissions_data": [
+          {
+            "mode": 33206
+          }
+        ],
+        "filesize_bytes": 109798
+      }
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "e3628b22524bc39b4c416b2ba3277dc3",
+    "text": "O. Sanni, A.P.I. Popoola / Data in Brief 22 (2019) 451\u2013457",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "embedded-images-tables.pdf",
+      "data_source": {
+        "url": null,
+        "version": null,
+        "record_locator": {
+          "path": "C:\\Users\\owner\\Desktop\\RAG\\embedded-images-tables.pdf"
+        },
+        "date_created": "1735086289.8262796",
+        "date_modified": "1735086289.8262796",
+        "date_processed": "1735136193.2906005",
+        "permissions_data": [
+          {
+            "mode": 33206
+          }
+        ],
+        "filesize_bytes": 109798
+      }
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "37883f438c468b3027dd7918a958dacd",
+    "text": "15 - & \u2014 10g =} \u2014 & \u20146g N Potential (V) \u2014 2 & = Control 2 e 88 25 T T 0.0000001 0.00001 0.001 01 Current Density (A/cm2)",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "embedded-images-tables.pdf",
+      "data_source": {
+        "url": null,
+        "version": null,
+        "record_locator": {
+          "path": "C:\\Users\\owner\\Desktop\\RAG\\embedded-images-tables.pdf"
+        },
+        "date_created": "1735086289.8262796",
+        "date_modified": "1735086289.8262796",
+        "date_processed": "1735136193.2906005",
+        "permissions_data": [
+          {
+            "mode": 33206
+          }
+        ],
+        "filesize_bytes": 109798
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6e7f7364d4edb4fed07440b3c083a5a4",
+    "text": "Fig. 4. Anodic and cathodic polarization curve of stainless steel in 0.5 M H2SO4 solution in the presence and absence of ES.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "embedded-images-tables.pdf",
+      "data_source": {
+        "url": null,
+        "version": null,
+        "record_locator": {
+          "path": "C:\\Users\\owner\\Desktop\\RAG\\embedded-images-tables.pdf"
+        },
+        "date_created": "1735086289.8262796",
+        "date_modified": "1735086289.8262796",
+        "date_processed": "1735136193.2906005",
+        "permissions_data": [
+          {
+            "mode": 33206
+          }
+        ],
+        "filesize_bytes": 109798
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "678447943f834294274cbc72b022dca9",
+    "text": "Table 1",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "embedded-images-tables.pdf",
+      "data_source": {
+        "url": null,
+        "version": null,
+        "record_locator": {
+          "path": "C:\\Users\\owner\\Desktop\\RAG\\embedded-images-tables.pdf"
+        },
+        "date_created": "1735086289.8262796",
+        "date_modified": "1735086289.8262796",
+        "date_processed": "1735136193.2906005",
+        "permissions_data": [
+          {
+            "mode": 33206
+          }
+        ],
+        "filesize_bytes": 109798
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1c5145ce91f1e3747ea815b31763e77f",
+    "text": "Potentiodynamic polarization data for stainless steel in the absence and presence of ES in 0.5 M H2SO4 solution.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "embedded-images-tables.pdf",
+      "data_source": {
+        "url": null,
+        "version": null,
+        "record_locator": {
+          "path": "C:\\Users\\owner\\Desktop\\RAG\\embedded-images-tables.pdf"
+        },
+        "date_created": "1735086289.8262796",
+        "date_modified": "1735086289.8262796",
+        "date_processed": "1735136193.2906005",
+        "permissions_data": [
+          {
+            "mode": 33206
+          }
+        ],
+        "filesize_bytes": 109798
+      }
+    }
+  },
+  {
+    "type": "Table",
+    "element_id": "31aa654088742f1388d46ea9c8878272",
+    "text": "Inhibitor Polarization Corrosion be (V/dec) ba (V/dec) Ecorr (V) icorr (AJcm?) concentration (g) resistance (Q) rate (mmj/year) 0.0335 0.0409 \u20140.9393 0.0003 24.0910 2.8163 1.9460 0.0596 .8276 0.0002 121.440 1.5054 0.0163 0.2369 .8825 0.0001 42121 0.9476 s NO 03233 0.0540 \u20140.8027 5.39E-05 373.180 0.4318 0.1240 0.0556 .5896 5.46E-05 305.650 0.3772 = 5 0.0382 0.0086 .5356 1.24E-05 246.080 0.0919",
+    "metadata": {
+      "text_as_html": "<table><thead><tr><th>Inhibitor concentration (g)</th><th>be (V/dec)</th><th>ba (V/dec)</th><th>Ecorr (V)</th><th>icorr (AJcm?)</th><th>Polarization resistance (Q)</th><th>Corrosion rate (mmj/year)</th></tr></thead><tbody><tr><td></td><td>0.0335</td><td>0.0409</td><td>\u20140.9393</td><td>0.0003</td><td>24.0910</td><td>2.8163</td></tr><tr><td>NO 2</td><td>1.9460</td><td>0.0596</td><td>.8276</td><td>0.0002</td><td>121.440</td><td>1.5054</td></tr><tr><td></td><td>0.0163</td><td>0.2369</td><td>.8825</td><td>0.0001</td><td>42121</td><td>0.9476</td></tr><tr><td>s 6</td><td>0.3233</td><td>0.0540</td><td>\u20140.8027</td><td>5.39E-05</td><td>373.180</td><td>0.4318</td></tr><tr><td>8</td><td>0.1240</td><td>0.0556</td><td>.5896</td><td>5.46E-05</td><td>305.650</td><td>0.3772</td></tr><tr><td>= 5</td><td>0.0382</td><td>0.0086</td><td>.5356</td><td>1.24E-05</td><td>246.080</td><td>0.0919</td></tr></tbody></table>",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "embedded-images-tables.pdf",
+      "data_source": {
+        "url": null,
+        "version": null,
+        "record_locator": {
+          "path": "C:\\Users\\owner\\Desktop\\RAG\\embedded-images-tables.pdf"
+        },
+        "date_created": "1735086289.8262796",
+        "date_modified": "1735086289.8262796",
+        "date_processed": "1735136193.2906005",
+        "permissions_data": [
+          {
+            "mode": 33206
+          }
+        ],
+        "filesize_bytes": 109798
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "404953f88af1e8218a5c132fe772175b",
+    "text": "The plot of inhibitor concentration over degree of surface coverage versus inhibitor concentration gives a straight line as shown in Fig. 5. The strong correlation reveals that egg shell adsorption on stainless surface in 0.5 M H2SO4 follow Langmuir adsorption isotherm. Figs. 6\u20138 show the SEM/EDX surface morphology analysis of stainless steel. Figs. 7 and 8 are the SEM/EDX images of the stainless steel specimens without and with inhibitor after weight loss experiment in sulphuric acid medium. The stainless steel surface corrosion product layer in the absence of inhibitor was porous and as a result gives no corrosion protection. With the presence of ES, corrosion damage was minimized, with an evidence of ES present on the metal surface as shown in Fig. 8.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "embedded-images-tables.pdf",
+      "data_source": {
+        "url": null,
+        "version": null,
+        "record_locator": {
+          "path": "C:\\Users\\owner\\Desktop\\RAG\\embedded-images-tables.pdf"
+        },
+        "date_created": "1735086289.8262796",
+        "date_modified": "1735086289.8262796",
+        "date_processed": "1735136193.2906005",
+        "permissions_data": [
+          {
+            "mode": 33206
+          }
+        ],
+        "filesize_bytes": 109798
+      }
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "b9c927ca849ede882a652599905bee60",
+    "text": "12   C/0  10  8  0  /  C  6  4  2  2  4  6  8  10  Concentration (g) ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "embedded-images-tables.pdf",
+      "data_source": {
+        "url": null,
+        "version": null,
+        "record_locator": {
+          "path": "C:\\Users\\owner\\Desktop\\RAG\\embedded-images-tables.pdf"
+        },
+        "date_created": "1735086289.8262796",
+        "date_modified": "1735086289.8262796",
+        "date_processed": "1735136193.2906005",
+        "permissions_data": [
+          {
+            "mode": 33206
+          }
+        ],
+        "filesize_bytes": 109798
+      }
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "637cd2341c51b2e5c55448e1105e8933",
+    "text": "Fig. 5. Langmuir adsorption isotherm of ES.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "embedded-images-tables.pdf",
+      "data_source": {
+        "url": null,
+        "version": null,
+        "record_locator": {
+          "path": "C:\\Users\\owner\\Desktop\\RAG\\embedded-images-tables.pdf"
+        },
+        "date_created": "1735086289.8262796",
+        "date_modified": "1735086289.8262796",
+        "date_processed": "1735136193.2906005",
+        "permissions_data": [
+          {
+            "mode": 33206
+          }
+        ],
+        "filesize_bytes": 109798
+      }
+    }
+  }
+]
