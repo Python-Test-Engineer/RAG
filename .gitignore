@@ -1,6 +1,7 @@
 venv/
 # ignore the venv directory
 env/
+**/*.pyc
 # ignore the .vscode directory
 .vscode/
 # ignore the .idea directory
