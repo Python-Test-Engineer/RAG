@@ -8,9 +8,9 @@ from unstructured_ingest.v2.processes.connectors.local import (
     LocalDownloaderConfig,
     LocalIndexerConfig,
     LocalUploaderConfig,
-    ChunkerConfig,
 )
 from unstructured_ingest.v2.processes.partitioner import PartitionerConfig
+from unstructured_ingest.v2.processes.chunker import ChunkerConfig
 
 load_dotenv(find_dotenv())
 UNSTRUCTURED_API_KEY = os.getenv("UNSTRUCTURED_API_KEY")
@@ -60,4 +60,5 @@ def generate_json_from_local(
     ).run()
 
 
-generate_json_from_local()
+if __name__ == "__main__":
+    generate_json_from_local()
