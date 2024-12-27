@@ -8,6 +8,20 @@ from pgvector.asyncpg import register_vector
 
 async def main():
     # Establish a connection to an existing database
+    """
+    Demonstrate usage of the asyncpg driver with pgvector.
+
+    - Connect to the database
+    - Create the "vector" extension
+    - Register the vector type with the asyncpg driver
+    - Create a table with an "embedding" column of type vector(3)
+    - Create an index on that column
+    - Insert some vectors
+    - Perform nearest-neighbor search
+    - Calculate the distance between two vectors
+    - Find all vectors within a certain distance
+    - Calculate the average of all vectors
+    """
     load_dotenv(override=True)
     DBUSER = os.environ["DBUSER"]
     DBPASS = os.environ["DBPASS"]
