@@ -25,6 +25,7 @@ sql = f"""CREATE TABLE IF NOT EXISTS {TABLE_NAME} (
 				publisher_estd INT,
 				publsiher_location VARCHAR(255),
 				publsiher_type VARCHAR(255)
+
 )"""
 
 try:
