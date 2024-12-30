@@ -1,0 +1,1252 @@
+[
+    {
+        "type": "Title",
+        "element_id": "f025747101727cd87b3a53846640a4f6",
+        "text": "AI Agent Framework in Healthcare Industry",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "ba2a3f0d03792539260b059161ec922d",
+        "text": "Avishek Bhattacharjee Soumyadip Ghosal Alpesh Patel",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "14c8614ebee502d98de269ebe4401a89",
+        "text": "Machine Learning Engineer Chief Executive Officer Chief Operating Officer",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "39046e480a43eb5da3fc1cecc8c5f9dc",
+        "text": "Revmaxx LLC Revmaxx LLC KARE Rx Partners",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "EmailAddress",
+        "element_id": "7d6689aa280f4bb9432e33ef33befc50",
+        "text": "wbavishek@gmail.com soumyadip@revmaxx.co apatel@karehp.com",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "c2efb23f0832c9c573c3e3b894c3872e",
+        "text": "Archanaditya Sarkar",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "f718e838057eb1003112119dd79a0383",
+        "text": "Digital Marketing Manager",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "0e219bfe32c2226e12190595347dda2c",
+        "text": "Revmaxx LLC",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "EmailAddress",
+        "element_id": "4cd704ad23311c1d5119efccb5585a05",
+        "text": "archanaditya@revmaxx.co",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "0f31e4bab48bb3489d6e28c1ad0bb2bd",
+        "text": "Abstract - In this paper, we introduce the LUCI framework, the first AI-powered medical agent, to empower developers to build advanced medical applications and products. Luci is the first AI-based medical agent designed to automate a wide range of healthcare processes. LUCI will also be very suitable for medical scribing, as its voice agent simplifies the creation of clinical notes. The chain-of- thought mechanism introduced in this framework allows the user to pass multiple prompts in a go for the model to serve different functionalities. As an example, one prompt can be used for searching medical data, and another for writing. This is an innovative way that will revolutionize the field. Moreover, LUCI applies RxNorms to ensure consistency in medical nomenclature, which makes functionality even more effective.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "7e407618c1b4273b19ff70c473829ebe",
+        "text": "Keywords: Chain of Thoughts, Natural Language Processing, LUCI",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "c7a8146289aba7e85db4c07c7bdfb904",
+        "text": "1. Introduction",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "parent_id": "7e407618c1b4273b19ff70c473829ebe",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "ec15fc79ae9f3288a3fdb73022cb0642",
+        "text": "In the new era of generative AI technology, AI agents[1] have become an integral part of the medical industry. All the medical AI is dependent on any AI agent, However, while many AI solutions exist in healthcare, there remains a significant gap: the lack of a comprehensive AI agent framework tailored specifically for healthcare developers[2]. Traditional AI frameworks are often too generic or limited, failing to meet the unique requirements of healthcare data, regulations, and practices. Developers are often forced to build their solutions from scratch or heavily modify existing frameworks, leading to inefficiencies and potential errors. To solve the problems of health care developers, we introduce Luci\u2014 learning useful clinical intelligence\u2014the first medical AI[3] agent that will change the world. It is incorporated with the advanced medical search[4] feature and chain of thoughts where the user can give multiple prompts, and each prompt will have a unique tool like search, review, and others. Developers can also use multiple prompts and build the agent, as well as users can choose tools for the prompt. In the Luci-agent building section, the user can give objectives, tasks, and precautions and mention tools. One agent can be connected to another agent. Here we make it unique that agents can process tasks perfectly and pass the data to another agent with a unique tool or our own-made tool by creating a streamlined process, and the final output will be so optimized and updated as per the recent knowledge.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "parent_id": "7e407618c1b4273b19ff70c473829ebe",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "1b9a049155a987f95781071162c72ce7",
+        "text": "The structure and mechanism of Luci have been discussed here, providing insight into how this AI agent framework operates and its potential to reshape the future of healthcare AI. From clinical decision- making to automated medical scribing, Luci represents the next step in medical AI innovation.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "parent_id": "7e407618c1b4273b19ff70c473829ebe",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "c2cf3bb64ab0513983dd72b72dde536d",
+        "text": "1.1 Background and Related Work",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 2,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "811c1e9de851d4a8748d33d445eab610",
+        "text": "The rapid adoption of AI in healthcare has sparked numerous research initiatives aimed at developing specialized frameworks. Existing frameworks, like the one proposed by IEEE Access[5] for smart health, demonstrate the potential for AI to handle complex medical procedures, data analysis, and patient care. However, the need for an AI agent framework specific to healthcare remains unmet. This gap becomes particularly evident in areas such as real-time medical decision[6] support, advanced medical coding, and the processing of patient data for clinical notes. Luci represents the first AI medical agent framework designed to address these critical healthcare needs. Unlike existing AI tools, which tend to focus on isolated functions, Luci integrates a holistic approach where multiple agents[7] can collaborate and communicate seamlessly. This multi-agent architecture enhances clinical decision- making by utilizing chain-of-thought[8] processes, advanced search capabilities, and custom tools designed specifically for healthcare professionals and developers. Each agent is customizable, allowing developers to define objectives and tasks tailored to specific medical contexts. Developers can create agents equipped with unique tools for specific healthcare-related tasks. Luci handles multiple prompts by breaking down complex queries and selecting appropriate tools for each stage of the process. Luci agents can communicate and collaborate with each other, providing a collaborative ecosystem that enhances performance in tasks such as medical scribing, coding using RxNorm[9], and clinical decision-making. By deploying Luci in healthcare environments, the framework can automate intricate tasks that typically require manual intervention. Evaluations of Luci\u2019s performance in clinical coding and medical decision-making have shown promising results, with improved accuracy in diagnosis support and efficiency in data processing. These results underscore the transformative potential of AI agent frameworks in healthcare, paving the way for intelligent, autonomous systems that can assist both developers and healthcare professionals. This refined structure aligns with the writing and formatting standards required by platforms like IEEE, ensuring your paper is well-received by technical reviewers. The integration of artificial intelligence (AI) in healthcare has revolutionized the way medical processes are handled, from diagnostics to patient data management. AI agents, designed to automate complex decision-making, have proven particularly valuable in addressing healthcare\u2019s intricate challenges. Despite the progress in AI-driven healthcare tools, a major limitation is the lack of a comprehensive framework that allows developers to customize agents for specific healthcare tasks, such as clinical decision support, medical coding, and patient record management. Research shows that while there are generalized AI frameworks, such as multi-agent systems in various industries, few are designed to handle the highly regulated and data-sensitive healthcare environment. Current tools often focus on limited functions like diagnostic assistance or medical imaging analysis, but do not provide the level of adaptability and collaboration required for complex, evolving healthcare systems. This gap highlights the necessity for a framework like Luci, which offers a customizable, agent-based AI system that healthcare developers can utilize for creating tailored solutions. Luci not only integrates advanced search and chain-of-thought mechanisms but also enables the use of specialized tools to tackle the nuanced requirements of the healthcare domain. By allowing agents to communicate and collaborate, Luci fosters an ecosystem where tasks such as medical decision-making, advanced coding (e.g., RxNorm), and clinical notes management are streamlined. As healthcare increasingly relies on AI for efficient and precise operations, the demand for adaptable AI agents will continue to grow. Luci's framework aims to fill this gap by offering healthcare professionals a robust, developer-friendly platform that enhances efficiency and accuracy in medical processes.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 2,
+            "parent_id": "c2cf3bb64ab0513983dd72b72dde536d",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "7b8f5cbe4dc8f7c2c61ec762648f6a0a",
+        "text": "1.2 Methodology",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 2,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "d68a9e34c9039640a45168b9351217ed",
+        "text": "The LUCI framework is designed to leverage intelligent agents to effectively gather information and generate comprehensive, structured medical content for healthcare applications. The methodology of LUCI is divided into different components: the Research and Summary Phase, the SOAP Analysis Phase, the CLI Tools, Chain of Thoughts, and Voice Documentation.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 2,
+            "parent_id": "7b8f5cbe4dc8f7c2c61ec762648f6a0a",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "e68f4595360cb2c37080bb7c97b3ee2c",
+        "text": "Fig 1: Methodologies of LUCI",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 3,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "777a1cc99817b1f03f0148c92f360009",
+        "text": "The methodology for utilizing CLI tools and chain-of-thought prompting in LUCI for voice documentation and research involves creating agents using pre-built functions. The process includes setting environment variables, defining tasks, and using methods like call_together to interact with APIs for speech-to-text transcription (e.g., clinical notes) and structured research gathering. Through CLI commands, the agents automate querying, document creation, and real-time medical searches, while chain-of-thoughts enhances prompt connection and master prompt generation for sequential tasks, enabling efficient multi-agent workflows.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 3,
+            "parent_id": "e68f4595360cb2c37080bb7c97b3ee2c",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "219de047fb60ba0ceab8d2a752729bec",
+        "text": "2. Research and Summary Phase",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 3,
+            "parent_id": "e68f4595360cb2c37080bb7c97b3ee2c",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "38c4b61f0fa7b1b1d11314271689e58e",
+        "text": "This phase utilizes intelligent agents for efficient information retrieval and synthesis.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 3,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "cad980a605e0e1e133785193c9134402",
+        "text": "Research Agent Creation: A research agent (\u201cResearchAgent\u201d) is constructed to gather the latest research on a given medical topic. This agent is configured with an objective of retrieving reliable and current research findings from reputable medical sources. A search tool (\u201cSearchTool\u201d) is integrated, utilizing an email-based API for accessing medical databases.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 3,
+            "parent_id": "38c4b61f0fa7b1b1d11314271689e58e",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "a251b88a3602510aa1e45fcd1aa61576",
+        "text": "Precautionary Measures: To maintain information accuracy, the ResearchAgent is instructed to avoid generating incorrect (hallucinated) information and to only utilize verified sources, such as medical journals.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 3,
+            "parent_id": "38c4b61f0fa7b1b1d11314271689e58e",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "fd052e83b183f5c6ab9baec8051a8aa9",
+        "text": "Fig 2: Performing research and generate summary using intelligent agentic search",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 3,
+            "parent_id": "38c4b61f0fa7b1b1d11314271689e58e",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "d5ace4173da3c04a96f41b1c089ee3fb",
+        "text": "Writer Agent Creation: The WriterAgent is then instantiated to summarize the gathered research into a cohesive and accurate summary. The WriterAgent is tasked with composing a clear and medically sound summary of the research findings.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 3,
+            "parent_id": "38c4b61f0fa7b1b1d11314271689e58e",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "9eaa8e793af93905cdea22aca9628229",
+        "text": "Agent Interaction and Final Answer Generation: The ResearchAgent and WriterAgent are connected, allowing seamless data flow from research to writing. The \u201cgenerate_final_answer\u201d",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 3,
+            "parent_id": "38c4b61f0fa7b1b1d11314271689e58e",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "255740f63051edc2073ff3a1bfb5b4c8",
+        "text": "function is used to combine the research results with the writing task, using the selected AI model (e.g., \u201cmeta-llama/Meta-Llama-3.1-8B-Instruct-Turbo\u201d). The final result is an accurate, structured summary of diabetes treatment guidelines.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 4,
+            "parent_id": "38c4b61f0fa7b1b1d11314271689e58e",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "673f82430bf39f5d8d289a7c2c6098a3",
+        "text": "Fig 3: Generate summary using LUCI",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 4,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "373b454cb464fdb3f24805b7b91b3bdc",
+        "text": "2.1 SOAP Analysis Phase",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 4,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "b7dfd8fcfc50e2872c96eb4a57edeb42",
+        "text": "This phase involves generating a comprehensive SOAP (Subjective, Objective, Assessment, and Plan) note from a transcript of doctor-patient conversations.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 4,
+            "parent_id": "373b454cb464fdb3f24805b7b91b3bdc",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "30796e03cc43b69790af8e8854259f18",
+        "text": "SOAP Agent Creation: A SOAP agent (\u201cSoapAgent\u201d) is used to extract and structure information from the transcript of clinical interactions. The SOAP agent's task is to generate detailed SOAP notes by breaking down the conversation transcript into the following components: Subjective: This involves identifying chief complaints and history of present illness (HPI), extracted from the provided transcript.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 4,
+            "parent_id": "373b454cb464fdb3f24805b7b91b3bdc",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "a66a50221bd4cf9a1ae93126e9ded7c7",
+        "text": "Objective: This step involves extracting vitals and historical data from the transcript to generate the objective section.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 4,
+            "parent_id": "373b454cb464fdb3f24805b7b91b3bdc",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "8e6cbeee91f1e473419b3916f30ef84c",
+        "text": "Assessment: The assessment section is generated by identifying the medical assessments based on the transcript.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 4,
+            "parent_id": "373b454cb464fdb3f24805b7b91b3bdc",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "6937dbc103a970ab2557c84c9b5bb590",
+        "text": "Plan: A plan is generated that outlines the treatment steps based on the transcript analysis.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 4,
+            "parent_id": "373b454cb464fdb3f24805b7b91b3bdc",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "f43a1a3452dbbe3bd24afd5ffdcfeb62",
+        "text": "Implementation: The SOAP agent (\u201cSoapAgent\u201d) is instantiated with necessary credentials, including model name and API key. The agent\u2019s objective is to generate a comprehensive SOAP note by organizing the transcript into meaningful headings and sub-headings, making it useful for healthcare providers.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 4,
+            "parent_id": "373b454cb464fdb3f24805b7b91b3bdc",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "55417cd0492f7ecdbfed37c1308e004b",
+        "text": "3. Model Selection",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 4,
+            "parent_id": "373b454cb464fdb3f24805b7b91b3bdc",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "c453e34e541d6c2afe20ea2e9d386ff0",
+        "text": "Throughout both phases, a variety of models are used to generate content. In Luci, we have built completely different model sections that can use multiple models, and for high-level work, you can use your own chosen model specialized for your task. Specifically, models such as \u201cmeta-llama/Meta- Llama-3.1-8B-Instruct-Turbo\u201d are leveraged to ensure the quality and reliability of both research summaries and SOAP notes. The choice of model and the \u201cconnect_agent\u201d method allow for the integration of information from different agents, providing a holistic and efficient solution for medical content creation. Everything is well documented, and all the methods are clearly mentioned with the proper way of calling.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 4,
+            "parent_id": "373b454cb464fdb3f24805b7b91b3bdc",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "c17d7b2401db9a418429c3dd2f5156c9",
+        "text": "Fig 4: Workflow of the Chain of Prompts Mechanism",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 5,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "91039f7b14d954ae6def1c0c2140f522",
+        "text": "The selection of models is easily configurable either through the command-line interface (CLI) or within the code, offering users control over which model they wish to utilize for tasks like voice documentation, clinical note transcription, and research. The modularity of LUCIs system enables seamless switching between models, allowing researchers to experiment with different AI engines to meet their specific accuracy, cost, or performance requirements. This flexibility makes LUCI highly adaptable for diverse use cases in healthcare, medical research, and beyond.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 5,
+            "parent_id": "c17d7b2401db9a418429c3dd2f5156c9",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "b27bbfd6954095fe969807c3f3d7cde5",
+        "text": "4. Medical Coding",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 5,
+            "parent_id": "c17d7b2401db9a418429c3dd2f5156c9",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "37d371dc624f43fee86ddd55a578a2a4",
+        "text": "LUCI integrates advanced medical coding capabilities, licensed to use SNOMED CT and RxNorms, enabling precise and standardized medical terminology across various healthcare applications. These coding systems facilitate accurate and interoperable clinical documentation, ensuring that medical records adhere to global healthcare standards.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 5,
+            "parent_id": "c17d7b2401db9a418429c3dd2f5156c9",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "74cb70c770ef1f658d28b96c9798aed6",
+        "text": "With LUCI, users benefit from real-time spelling suggestions for medical terms and conditions, ensuring the accuracy of clinical notes and minimizing errors. Additionally, LUCI can retrieve RxCUI codes for medications, providing standardized drug identifiers that are critical for prescription management, drug interaction checks, and pharmacy systems. These RxCUI codes can be seamlessly applied to any healthcare or research application, making LUCI a powerful tool for clinicians, medical coders, and developers aiming to streamline medical coding and integrate it with electronic health record (EHR) systems or other healthcare solutions. This functionality ensures that healthcare professionals can maintain compliance with coding standards while improving the efficiency and accuracy of medical documentation workflows.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 5,
+            "parent_id": "c17d7b2401db9a418429c3dd2f5156c9",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "d28fae1a2c8d0529d92d6d1d73deb24f",
+        "text": "Fig 5: Output of the RxNorms",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 5,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "72cf5e55f39bc7e5b148e69421c111c1",
+        "text": "5. Clinical Decision making",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 5,
+            "parent_id": "d28fae1a2c8d0529d92d6d1d73deb24f",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "019ea1570ff9cc7de2eda2b05679b4b9",
+        "text": "The Clinical Decision-making section of Luci assists healthcare developers by leveraging AI-driven insights and automation for the decision-making process in patient care. This module enhances the developer\u2019s ability to quickly synthesize information from patient encounters, records, and clinical guidelines, ensuring more accurate and evidence-based decisions.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 5,
+            "parent_id": "d28fae1a2c8d0529d92d6d1d73deb24f",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "2c0c6ae059f3946e266a865b8d4eb7c3",
+        "text": "Key Features:",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 5,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "36e530767394104be91b6abe6b94c040",
+        "text": "1. Medication Analysis & Management",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 5,
+            "parent_id": "2c0c6ae059f3946e266a865b8d4eb7c3",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "3e429cd818bbd7e19a5ea4d00b859d24",
+        "text": "Medication Suggestions: Luci can analyze transcripts or patient records to extract prescribed medications, dosages, and past medication history. It alerts the provider if there are potential issues such as incorrect dosages, drug interactions, or missed medications.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 6,
+            "parent_id": "2c0c6ae059f3946e266a865b8d4eb7c3",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "a583614c69a6ba4ca904aac59472a09b",
+        "text": "Medication Reconciliation: During patient follow-up visits, Luci can track medications the patient mentions (whether previously taken or currently prescribed), as well as identify those that require dosage adjustments. This feature is particularly helpful when reconciling medications from multiple healthcare providers.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 6,
+            "parent_id": "2c0c6ae059f3946e266a865b8d4eb7c3",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "8a4130a2ef7412398d53e13d8a5a2160",
+        "text": "Dosage Adjustment Recommendations: Based on the patient\u2019s condition and physician instructions, Luci provides clear and structured suggestions, highlighting dosage increases or changes and reflecting them directly in the SOAP note (e.g., \"Lisinopril 20 mg (Increased Dosage to 30 mg)\").",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 6,
+            "parent_id": "2c0c6ae059f3946e266a865b8d4eb7c3",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "11d14b5d737e9776955e72a85a8d2463",
+        "text": "2. Clinical Risk Assessments",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 6,
+            "parent_id": "2c0c6ae059f3946e266a865b8d4eb7c3",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "5c85e123ef16afcb69d0d7606b4b21e2",
+        "text": "Risk Factor Calculation: Luci uses patient data (e.g., family history, lab results, lifestyle factors) to generate risk assessments for conditions such as cardiovascular disease, diabetes, or hypertension. This allows the clinician to prioritize treatment plans based on the calculated risk scores.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 6,
+            "parent_id": "2c0c6ae059f3946e266a865b8d4eb7c3",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "04ca85c8e0b7f6541dd28b669e0afff9",
+        "text": "Diagnostic Support: Luci assists in diagnosis by analyzing symptoms, lab reports, and imaging results, comparing them with a vast medical database to suggest possible differential diagnoses.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 6,
+            "parent_id": "2c0c6ae059f3946e266a865b8d4eb7c3",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "c2c3fcaccdaf9099162fed040f22a11e",
+        "text": "3. Guideline-Based Recommendations",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 6,
+            "parent_id": "2c0c6ae059f3946e266a865b8d4eb7c3",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "2d35f1483bea9a7cdd0ab087d7762fc5",
+        "text": "Adherence to Clinical Guidelines: Luci can check the patient\u2019s medications, treatment plans, and suggested diagnostics against established clinical guidelines (e.g., ADA guidelines for diabetes management) to ensure evidence-based recommendations are followed.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 6,
+            "parent_id": "2c0c6ae059f3946e266a865b8d4eb7c3",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "44b905bb593e386f93e3a2541c9a05dd",
+        "text": "Alerts for Missing Actions: If Luci detects that a particular recommended clinical action (such as a routine screening or lab test) has not been addressed, it provides reminders to the provider.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 6,
+            "parent_id": "2c0c6ae059f3946e266a865b8d4eb7c3",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "062a3b3e3b8d20e7eb03943623c8fd87",
+        "text": "4. Personalized Patient Insights",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 6,
+            "parent_id": "2c0c6ae059f3946e266a865b8d4eb7c3",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "a85e92dabd264609891c0885f7d4bf8d",
+        "text": "Patient-Specific Alerts: Luci\u2019s decision engine monitors patient data in real-time and can alert healthcare professionals to emerging risks or the need for adjustments in ongoing treatments (e.g., drug efficacy waning or adverse reactions).",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 6,
+            "parent_id": "2c0c6ae059f3946e266a865b8d4eb7c3",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "9b124435cccaa585ef7ed159613623fd",
+        "text": "Custom Recommendations: Based on individual patient profiles, Luci suggests tailored treatment plans, such as dietary recommendations for diabetic patients or lifestyle adjustments for patients with hypertension.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 6,
+            "parent_id": "2c0c6ae059f3946e266a865b8d4eb7c3",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "f8ffda9270de4f9e0eb8d92d7ab2304d",
+        "text": "5. Real-Time Interaction During Consultations",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 6,
+            "parent_id": "2c0c6ae059f3946e266a865b8d4eb7c3",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "c1b4d5b7e0fcda165518df73675eff00",
+        "text": "Context-Aware Response: During patient-provider interactions, Luci listens to real- time transcripts and pulls relevant information from past encounters to assist the provider. For example, it highlights previously discussed medications or conditions, helping maintain continuity of care.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 6,
+            "parent_id": "2c0c6ae059f3946e266a865b8d4eb7c3",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "a6309e3a50914d3e46540380618d49e7",
+        "text": "o Enhanced SOAP Note Generation: Luci automates the generation of comprehensive and organized SOAP notes, ensuring accurate capture of subjective, objective, and assessment data along with clear, actionable plans.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "4c8a5d1a1a31b804c2ace2651c818e8f",
+        "text": "Clinical Decision-Making Process Flow:",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "74f40f97baf3f3b3ced5a63b804e70a9",
+        "text": "1. Patient Encounter: Luci listens and transcribes the interaction between the patient and provider, capturing symptoms, complaints, and medical history.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "parent_id": "4c8a5d1a1a31b804c2ace2651c818e8f",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "11b395c93e08bb47a5181be17431ac36",
+        "text": "2. Real-Time Analysis: During the conversation, Luci performs a real-time analysis of the patient's condition, including symptom checking, past medical data integration, and matching to relevant clinical guidelines.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "parent_id": "4c8a5d1a1a31b804c2ace2651c818e8f",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "03556e71cfb38eeb1ab6ab3853b3bcd3",
+        "text": "3. Medication & Diagnosis Suggestions: Based on the analysis, Luci suggests appropriate medications, dosage adjustments, or potential diagnoses for the provider to review.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "parent_id": "4c8a5d1a1a31b804c2ace2651c818e8f",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "f7a642e94f56f67347cc7f4215ddb9b8",
+        "text": "4. Risk & Diagnostic Tools: Luci offers insights into patient risks based on lab results, vital signs, and other clinical data. If necessary, it will recommend further diagnostics or immediate clinical actions.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "parent_id": "4c8a5d1a1a31b804c2ace2651c818e8f",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "cf84d9b1c5e8674849fd2fe7ba9fc5ad",
+        "text": "5. Final Decision Support: Luci presents a summary of its findings, including risk assessments, medication changes, and guideline checks, allowing the provider to make informed clinical decisions.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "parent_id": "4c8a5d1a1a31b804c2ace2651c818e8f",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "66a69e1d26ad2bf2a0f1adb70175d1c3",
+        "text": "Fig 6: Clinical Decision-Making Workflow",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "d4345c91edd829e3b4474f990541e83c",
+        "text": "6. Conclusion",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "parent_id": "66a69e1d26ad2bf2a0f1adb70175d1c3",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "3a7a2872e0be3d24e04130119f50eeaf",
+        "text": "In conclusion, Luci marks a significant step forward in addressing the challenges faced by healthcare developers working with AI. By offering a specialized, flexible framework that can handle complex tasks and integrate multiple tools, Luci not only fills a critical gap in the healthcare industry but also streamlines the development process. Its ability to connect AI agents, optimize outputs, and adapt to the latest medical knowledge makes it a transformative solution for clinical decision-making and other essential healthcare functions. As generative AI continues to evolve, Luci sets the standard for intelligent, adaptable, and efficient medical AI agents.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "parent_id": "66a69e1d26ad2bf2a0f1adb70175d1c3",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "4b3e0e5e1193a1a8910f29b307c7cb41",
+        "text": "References",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "eb2a1ebe16c88fe0ca98521ec8181783",
+        "text": "[1] M. S. Kannel\u00f8nning, \u201cContesting futures of Artificial Intelligence (AI) in healthcare: formal",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "parent_id": "4b3e0e5e1193a1a8910f29b307c7cb41",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "7374b861e4c1caffc4c7eaacfb541f13",
+        "text": "expectations meet informal anticipations,\u201d Technol Anal Strateg Manag, pp. 1\u201312, Jun. 2023, doi: 10.1080/09537325.2023.2226243.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "parent_id": "4b3e0e5e1193a1a8910f29b307c7cb41",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "9b125bbeb4f1b7660cbdbb4f511ee339",
+        "text": "[2]",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "parent_id": "4b3e0e5e1193a1a8910f29b307c7cb41",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "a77cb14c7519af58ccaba2c94b95de44",
+        "text": "S. Iqbal, W. Altaf, M. Aslam, W. Mahmood, and M. U. G. Khan, \u201cApplication of intelligent agents in health-care: review,\u201d Artif Intell Rev, vol. 46, no. 1, pp. 83\u2013112, Jun. 2016, doi: 10.1007/s10462-016-9457-y.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "parent_id": "4b3e0e5e1193a1a8910f29b307c7cb41",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "d926a88d3c50615210715dd24b90543a",
+        "text": "[3]",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 8,
+            "parent_id": "4b3e0e5e1193a1a8910f29b307c7cb41",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "150e7fdacaaff32e8e6c95cc8fd6ca72",
+        "text": "[4]",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 8,
+            "parent_id": "4b3e0e5e1193a1a8910f29b307c7cb41",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "d853e5b4c49bbc82e07d738b3919d37b",
+        "text": "[5]",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 8,
+            "parent_id": "4b3e0e5e1193a1a8910f29b307c7cb41",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "65fc70abde8883d3f2135fd3989ef874",
+        "text": "[6]",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 8,
+            "parent_id": "4b3e0e5e1193a1a8910f29b307c7cb41",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "d1cdfbc97d454e7354d4758659c429a3",
+        "text": "[7]",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 8,
+            "parent_id": "4b3e0e5e1193a1a8910f29b307c7cb41",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "d3b17b0b9e4a0594e4b5f5d5812e7c06",
+        "text": "[8]",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 8,
+            "parent_id": "4b3e0e5e1193a1a8910f29b307c7cb41",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "4db4bc050296bb9cea5338c49520b46a",
+        "text": "[9]",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 8,
+            "parent_id": "4b3e0e5e1193a1a8910f29b307c7cb41",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "d85385a3baf785ed3290928ee70d43d0",
+        "text": "P. Apell and H. Eriksson, \u201cArtificial intelligence (AI) healthcare technology innovations: the current state and challenges from a life science industry perspective,\u201d Technol Anal Strateg Manag, vol. 35, no. 2, pp. 179\u2013193, Feb. 2023, doi: 10.1080/09537325.2021.1971188.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 8,
+            "parent_id": "4b3e0e5e1193a1a8910f29b307c7cb41",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "a22e6df293bd9a3839d39af0de16b8e3",
+        "text": "Gang Luo, \u201cLessons learned from building the iMED intelligent medical search engine,\u201d in 2009 Annual International Conference of the IEEE Engineering in Medicine and Biology Society, IEEE, Sep. 2009, pp. 5138\u20135142. doi: 10.1109/IEMBS.2009.5334577.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 8,
+            "parent_id": "4b3e0e5e1193a1a8910f29b307c7cb41",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "32ce4bdd925c7399c98be8d7126ea048",
+        "text": "U. Pawar, D. O\u2019Shea, S. Rea, and R. O\u2019Reilly, \u201cExplainable AI in Healthcare,\u201d in 2020 International Conference on Cyber Situational Awareness, Data Analytics and Assessment (CyberSA), IEEE, Jun. 2020, pp. 1\u20132. doi: 10.1109/CyberSA49311.2020.9139655.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 8,
+            "parent_id": "4b3e0e5e1193a1a8910f29b307c7cb41",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "b6ccd9e81aa070739c7f56eba053ecfd",
+        "text": "R. Ciesla, \u201cAI and Chatbots in Healthcare,\u201d in The Book of Chatbots, Cham: Springer Nature Switzerland, 2024, pp. 91\u2013107. doi: 10.1007/978-3-031-51004-5_5.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 8,
+            "parent_id": "4b3e0e5e1193a1a8910f29b307c7cb41",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "0cf03c881af376dae00ffc4f742f08bc",
+        "text": "S. Ranasinghe et al., \u201cAddressing the Productivity Paradox in Healthcare with Retrieval Augmented Generative AI Chatbots,\u201d in 2024 IEEE International Conference on Industrial Technology (ICIT), IEEE, Mar. 2024, pp. 1\u20136. doi: 10.1109/ICIT58233.2024.10540818.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 8,
+            "parent_id": "4b3e0e5e1193a1a8910f29b307c7cb41",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "42a1b157479f8cf21cbf3137c7952295",
+        "text": "A. Moreno, \u201cGuest Editor\u2019s Introduction: On the Evolution of Applying Agent Technology to Healthcare,\u201d IEEE Intell Syst, vol. 21, no. 6, pp. 8\u201310, Nov. 2006, doi: 10.1109/MIS.2006.111.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 8,
+            "parent_id": "4b3e0e5e1193a1a8910f29b307c7cb41",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "1bff86b3e843f0180d65aed157c78314",
+        "text": "L. Arbelaez Ossa, S. R. Milford, M. Rost, A. K. Leist, D. M. Shaw, and B. S. Elger, \u201cAI Through Ethical Lenses: A Discourse Analysis of Guidelines for AI in Healthcare,\u201d Sci Eng Ethics, vol. 30, no. 3, p. 24, Jun. 2024, doi: 10.1007/s11948-024-00486-0.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "page_number": 8,
+            "parent_id": "4b3e0e5e1193a1a8910f29b307c7cb41",
+            "filename": "AIAgentFrameworkinHealthcareIndustry.pdf",
+            "filetype": "application/pdf"
+        }
+    }
+]
