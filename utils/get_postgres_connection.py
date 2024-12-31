@@ -24,7 +24,7 @@ def _conn_open():
         host=DB_HOST,
     )
     if conn:
-        console.print(f"[green bold]Conn: {conn}[/]")
+        console.print(f"[white bold]Conn: {conn}[/]")
     else:
         console.print("[red bold]NO CONNECTION[/red bold]")
     # Open cursor to perform database operation
