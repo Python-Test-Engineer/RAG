@@ -6,7 +6,7 @@ conn = psycopg2.connect(
     database="postgres",
     user="postgres",
     password="postgres",
-    host="host.docker.internal",
+    host="localhost",
 )
 if conn:
     print(f"Conn: {conn}")

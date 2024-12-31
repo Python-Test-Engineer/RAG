@@ -7,7 +7,7 @@ def bulkInsert(records):
             database="postgres",
             user="postgres",
             password="postgres",
-            host="host.docker.internal",
+            host="localhost",
         )
         cursor = connection.cursor()
         sql_insert_query = """ INSERT INTO employees (name, state, salary) 

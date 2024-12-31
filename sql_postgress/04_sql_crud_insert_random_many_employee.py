@@ -14,14 +14,14 @@ try:
         database="postgres",
         user="postgres",
         password="postgres",
-        host="host.docker.internal",
+        host="localhost",
         # host="postgres", # does not work
     )
     cursor = connection.cursor()
     for i in range(20):
         n1 = random.randint(5, 15)
         n2 = random.randint(3, 10)
-        postgres_insert_query = """ INSERT into employee(name, state) VALUES (%s, %s)"""
+        postgres_insert_query = """ INSERT into employees (name, state) VALUES (%s, %s)"""
         record_to_insert = (get_random_string(n1), get_random_string(n2))
         cursor.execute(postgres_insert_query, record_to_insert)
 
