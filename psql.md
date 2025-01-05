@@ -1,0 +1,1 @@
+docker exec -it rag-postgres-1 bash 
