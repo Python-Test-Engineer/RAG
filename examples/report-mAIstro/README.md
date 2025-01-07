@@ -2,6 +2,8 @@
 
 Report mAIstro creates easily customizable reports on any user-supplied topic.
 
+https://www.youtube.com/watch?v=wSxZ7yFbbas&t=497s
+
 > See [report examples here](report_examples/)!
 
 ![report_mAIstro](https://github.com/user-attachments/assets/720aae16-dc68-4725-a880-1e4e0c7e6fd4)
