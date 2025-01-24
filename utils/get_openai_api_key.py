@@ -24,3 +24,7 @@ def get_test_key():
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
     return OPENAI_API_KEY
+
+if __name__ == "__main__":
+    OPENAI_API_KEY = get_test_key()
+    print(OPENAI_API_KEY)
