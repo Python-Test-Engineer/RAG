@@ -1,0 +1,303 @@
+[
+    {
+        "type": "Title",
+        "element_id": "086853b9-7d2f-4770-988c-4f3f65150aee",
+        "text": "AI Agents in the Data Pipeline",
+        "metadata": {
+            "category_depth": 0,
+            "languages": [
+                "eng"
+            ],
+            "filename": "meetup-cb0da201.md",
+            "filetype": "text/markdown",
+            "data_source": {}
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "d30015c7-1598-456e-a3e7-beeb3cd912b0",
+        "text": "Can we build an Agentic AI Data Analyst (intern)?",
+        "metadata": {
+            "emphasized_text_contents": [
+                "Can we build an Agentic AI Data Analyst (intern)?"
+            ],
+            "emphasized_text_tags": [
+                "i"
+            ],
+            "languages": [
+                "eng"
+            ],
+            "filename": "meetup-cb0da201.md",
+            "filetype": "text/markdown",
+            "parent_id": "086853b9-7d2f-4770-988c-4f3f65150aee",
+            "data_source": {}
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "ba736bd2-f125-4e35-bbbc-f0d3552b99db",
+        "text": "HANDS ON WORKSHOP",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "filename": "meetup-cb0da201.md",
+            "filetype": "text/markdown",
+            "parent_id": "086853b9-7d2f-4770-988c-4f3f65150aee",
+            "data_source": {}
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "ee6ae524-4de5-4976-8e48-40c716f0890a",
+        "text": "In this 90 minute workshop we will work almost exclusively with notebooks.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "filename": "meetup-cb0da201.md",
+            "filetype": "text/markdown",
+            "parent_id": "086853b9-7d2f-4770-988c-4f3f65150aee",
+            "data_source": {}
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "289966e6-45ba-4773-bfb0-399403a3d865",
+        "text": "Part One:",
+        "metadata": {
+            "category_depth": 1,
+            "languages": [
+                "eng"
+            ],
+            "filename": "meetup-cb0da201.md",
+            "filetype": "text/markdown",
+            "parent_id": "086853b9-7d2f-4770-988c-4f3f65150aee",
+            "data_source": {}
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "3dd43d74-5001-4b01-a6a7-c1d82563f82e",
+        "text": "We will learn how to build AI Agents from scratch and see that they can be considered to use 'AI as API'. A new way of coding is involved and we will spend time understanding how Generative AI is used.",
+        "metadata": {
+            "category_depth": 1,
+            "languages": [
+                "eng"
+            ],
+            "filename": "meetup-cb0da201.md",
+            "filetype": "text/markdown",
+            "parent_id": "289966e6-45ba-4773-bfb0-399403a3d865",
+            "data_source": {}
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "74a8ccab-2817-4071-9dca-2a49c12316f9",
+        "text": "We will look at the fundamental patterns and explore Toole/Function calling.",
+        "metadata": {
+            "category_depth": 1,
+            "languages": [
+                "eng"
+            ],
+            "filename": "meetup-cb0da201.md",
+            "filetype": "text/markdown",
+            "parent_id": "289966e6-45ba-4773-bfb0-399403a3d865",
+            "data_source": {}
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "d348d390-20d6-4ead-8f86-d0e1bfe200b4",
+        "text": "We will examine how Multi Agents frameworks use traditonal design patterns.",
+        "metadata": {
+            "category_depth": 1,
+            "languages": [
+                "eng"
+            ],
+            "filename": "meetup-cb0da201.md",
+            "filetype": "text/markdown",
+            "parent_id": "289966e6-45ba-4773-bfb0-399403a3d865",
+            "data_source": {}
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "c1484e4a-2dba-4a92-856e-4be871aedae7",
+        "text": "We will also look briefly at how we test Agentically and evaluate our Agent",
+        "metadata": {
+            "category_depth": 1,
+            "languages": [
+                "eng"
+            ],
+            "filename": "meetup-cb0da201.md",
+            "filetype": "text/markdown",
+            "parent_id": "289966e6-45ba-4773-bfb0-399403a3d865",
+            "data_source": {}
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "dd8d13a1-eeed-499c-8ce9-5bb63566067c",
+        "text": "My aims for the workshop are to show that: 1. To see that it can be just ‘AI as API’, albeit a very magical API. 2. To show that AI based apps need not be all AI or not at all, but we can have ‘a bit of AI in our apps’. 3. To show that it is ‘business as usual’ as Pythonistas, using our experience and skills to create AI Apps.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "filename": "meetup-cb0da201.md",
+            "filetype": "text/markdown",
+            "parent_id": "289966e6-45ba-4773-bfb0-399403a3d865",
+            "data_source": {}
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "69cf5cf4-6423-4732-bf85-820a54d89ecc",
+        "text": "Part Two:",
+        "metadata": {
+            "category_depth": 1,
+            "languages": [
+                "eng"
+            ],
+            "filename": "meetup-cb0da201.md",
+            "filetype": "text/markdown",
+            "parent_id": "086853b9-7d2f-4770-988c-4f3f65150aee",
+            "data_source": {}
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "c375cd23-f580-4d97-89d0-459f4ec13bfc",
+        "text": "We will look at some AI Agents and see how they can be used in a Data Pipeline, from ETL to Query Analysis.",
+        "metadata": {
+            "category_depth": 1,
+            "languages": [
+                "eng"
+            ],
+            "filename": "meetup-cb0da201.md",
+            "filetype": "text/markdown",
+            "parent_id": "69cf5cf4-6423-4732-bf85-820a54d89ecc",
+            "data_source": {}
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "c8878b2c-594c-4537-93b2-6ec5d5048f2a",
+        "text": "We will look at Open Source library for Data Analysis.",
+        "metadata": {
+            "category_depth": 1,
+            "languages": [
+                "eng"
+            ],
+            "filename": "meetup-cb0da201.md",
+            "filetype": "text/markdown",
+            "parent_id": "69cf5cf4-6423-4732-bf85-820a54d89ecc",
+            "data_source": {}
+        }
+    },
+    {
+        "type": "ListItem",
+        "element_id": "67a4b25e-b002-4493-88a5-b5dadc86a5ef",
+        "text": "We will have a conversation about how capable our AI Agents are and what we can expect from them.",
+        "metadata": {
+            "category_depth": 1,
+            "languages": [
+                "eng"
+            ],
+            "filename": "meetup-cb0da201.md",
+            "filetype": "text/markdown",
+            "parent_id": "69cf5cf4-6423-4732-bf85-820a54d89ecc",
+            "data_source": {}
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "1a3dc25d-e851-4eb1-97c8-210b349bb471",
+        "text": "The full repo is availalbe a couple of days before the workshop here...this will help you get set up.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "filename": "meetup-cb0da201.md",
+            "filetype": "text/markdown",
+            "parent_id": "69cf5cf4-6423-4732-bf85-820a54d89ecc",
+            "data_source": {}
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "26d3d3d1-5462-4df9-aac2-5f422204e9be",
+        "text": "Access to an LLM will be required.",
+        "metadata": {
+            "emphasized_text_contents": [
+                "Access to an LLM will be required."
+            ],
+            "emphasized_text_tags": [
+                "b"
+            ],
+            "languages": [
+                "eng"
+            ],
+            "filename": "meetup-cb0da201.md",
+            "filetype": "text/markdown",
+            "parent_id": "69cf5cf4-6423-4732-bf85-820a54d89ecc",
+            "data_source": {}
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "6f2957ee-5269-451c-85a0-56c7e8f85551",
+        "text": "Groq provides a free tier which will be more than sufficient for our use. It uses the same interface as OpenAI so an OpenAI API key or Groq API key will be sufficient.",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "filename": "meetup-cb0da201.md",
+            "filetype": "text/markdown",
+            "parent_id": "69cf5cf4-6423-4732-bf85-820a54d89ecc",
+            "data_source": {}
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "8ba18d2c-2f35-4d7a-964e-07e312df611a",
+        "text": "Free Tier with Groq: https://console.groq.com/login",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "filename": "meetup-cb0da201.md",
+            "filetype": "text/markdown",
+            "parent_id": "69cf5cf4-6423-4732-bf85-820a54d89ecc",
+            "data_source": {}
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "d4968bdb-75ff-4ff0-93f1-ec8dca66ffd4",
+        "text": "GitHub Repo: TO FOLLOW...",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "filename": "meetup-cb0da201.md",
+            "filetype": "text/markdown",
+            "parent_id": "69cf5cf4-6423-4732-bf85-820a54d89ecc",
+            "data_source": {}
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "bfbcdacc-9659-482e-b3ba-e85569bdc339",
+        "text": "Craig West LinkedIn: https://www.linkedin.com/in/craig-west-0914b230b/ Website: https://craig-west.netlify.app/",
+        "metadata": {
+            "languages": [
+                "eng"
+            ],
+            "filename": "meetup-cb0da201.md",
+            "filetype": "text/markdown",
+            "parent_id": "69cf5cf4-6423-4732-bf85-820a54d89ecc",
+            "data_source": {}
+        }
+    }
+]
